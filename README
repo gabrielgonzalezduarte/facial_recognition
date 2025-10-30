@@ -4,38 +4,25 @@ Sistema de reconocimiento facial desarrollado en Python que permite detectar, re
 
 ✨ Características Principales
 🎯 Detección facial en tiempo real usando Haar Cascades
-
 👥 Registro y gestión de rostros en base de datos
-
 🔍 Reconocimiento facial basado en embeddings
-
 🖼️ Interfaz gráfica moderna con Tkinter
-
 💾 Almacenamiento persistente con SQLite
-
 🐳 Soporte Docker para fácil despliegue
-
 📸 Captura de fotos desde la cámara
 
 🛠️ Tecnologías Utilizadas
 Python 3.8+ - Lenguaje de programación
-
 OpenCV - Procesamiento de imágenes y visión artificial
-
 Tkinter - Interfaz gráfica de usuario
-
 Pillow (PIL) - Manipulación de imágenes
-
 NumPy - Cálculos numéricos
-
 SQLite3 - Base de datos integrada
 
 🚀 Instalación Rápida
 Prerrequisitos
 Python 3.8 o superior
-
 Cámara web funcional
-
 2GB de RAM mínimo
 
 Método 1: Instalación Tradicional
@@ -78,27 +65,16 @@ Flujo de Trabajo
 Iniciar Cámara
 
 Haz clic en "Iniciar Cámara" para activar la cámara web
-
 Registrar un Nuevo Rostro
-
 Escribe el nombre en el campo "Nombre"
-
 Haz clic en "Registrar Rostro"
-
 Asegúrate de que solo un rostro sea visible
-
 Reconocimiento Automático
-
 El sistema reconocerá automáticamente los rostros registrados
-
 Los nombres aparecerán sobre los rostros detectados
-
 Gestionar Rostros
-
 Ver lista de rostros registrados
-
 Eliminar rostros seleccionados
-
 Capturar fotos del video
 
 📁 Estructura del Proyecto
@@ -110,5 +86,3 @@ facial_recognition/
 ├── database.py           # Gestión de base de datos
 ├── requirements.txt      # Dependencias del proyecto
 ├── Dockerfile           # Configuración Docker
-└── images/
-    └── default_avatar.png # Imagen por defecto
